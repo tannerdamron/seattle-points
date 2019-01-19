@@ -1,0 +1,76 @@
+/* Portrait */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 4)
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 4)
+  and (orientation: landscape) {
+
+}
+
+body {
+  background-image: url("../img/seattle.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+}
+
+button {
+  width: 200px;
+  height: 200px;
+  border-radius: 8%;
+  font-size: 30px;
+  color: black;
+  box-shadow: 5px 6px black;
+  margin-left: 50%;
+  font-weight: bold;
+  font-family: helvetica;
+  text-shadow: 2px 2px #B76391;
+}
+
+button.airpod {
+  background-image: url("../img/airpods.png");
+}
+
+button.cakes {
+  background-image: url("../img/cakes.png");
+  background-position: center;
+}
+
+ h1 {
+   text-align: center;
+   font-size: 70px;
+   margin-bottom: 7%;
+   margin-top: 5%;
+   color: white;
+   text-shadow: 2px 2px #B76391;
+ }
+
+ .col-xs-6 {
+   margin-left: 15%;
+   padding-bottom: 3%;
+ }
+
+#result {
+  text-align: center;
+  font-size: 60px;
+  color: #FBFAFB;
+  font-weight: bold;
+  text-shadow: 2px 2px #B76391;
+}
+
+#result2 {
+  text-align: center;
+  font-size: 60px;
+  color: #FBFAFB;
+  font-weight: bold;
+  text-shadow: 2px 2px #B76391;
+}
